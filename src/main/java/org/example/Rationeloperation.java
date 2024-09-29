@@ -46,5 +46,10 @@ public class Rationeloperation {
             System.out.println("y biger then x");
         }
         else System.out.println("x equals y");
+        // new if
+        int time = 20;
+        String result;
+        result = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
     }
 }
