@@ -36,7 +36,21 @@ public static int makePositive(int a){
             return -a;
         }
             else
-                return a;
+                return a;}
+
+    public static int isEvenNumber(int n){
+        if(n % 2 == 0){
+            return n;
+        }
+        return n * 2;
+    }
+
+    public static boolean isPalindrome(String a){
+        String reverse = "";
+        for(int i = a.length() - 1; i >= 0; i--){
+            reverse += a.charAt(i);
+        }
+        return a.equals(reverse);
 
 }
 }
